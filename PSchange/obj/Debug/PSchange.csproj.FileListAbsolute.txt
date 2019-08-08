@@ -1,0 +1,16 @@
+D:\PSchange\PSchange\bin\Debug\PSchange.exe
+D:\PSchange\PSchange\bin\Debug\PSchange.pdb
+D:\PSchange\PSchange\obj\Debug\MainWindow.g.cs
+D:\PSchange\PSchange\obj\Debug\App.g.cs
+D:\PSchange\PSchange\obj\Debug\PSchange_MarkupCompile.cache
+D:\PSchange\PSchange\obj\Debug\PSchange_MarkupCompile.lref
+D:\PSchange\PSchange\obj\Debug\MainWindow.baml
+D:\PSchange\PSchange\obj\Debug\PSchange.g.resources
+D:\PSchange\PSchange\obj\Debug\PSchange.Properties.Resources.resources
+D:\PSchange\PSchange\obj\Debug\PSchange.csproj.GenerateResource.cache
+D:\PSchange\PSchange\obj\Debug\PSchange.csproj.CoreCompileInputs.cache
+D:\PSchange\PSchange\obj\Debug\PSchange.exe
+D:\PSchange\PSchange\obj\Debug\PSchange.pdb
+D:\PSchange\PSchange\bin\Debug\PSchangeDB.accdb
+D:\PSchange\PSchange\obj\Debug\PSchange_Content.g.cs
+D:\PSchange\PSchange\obj\Debug\PSchange.csprojAssemblyReference.cache

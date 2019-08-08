@@ -1,0 +1,29 @@
+﻿<Window x:Class="PSchange.GameListWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PSchange"
+        mc:Ignorable="d"
+        Title="GameListWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid Background="#FFE8E8E8">
+        <Label Content="中文名称" HorizontalAlignment="Left" Margin="26,49,0,0" VerticalAlignment="Top" Height="44" Width="107" FontSize="24"/>
+        <Label Content="英文名称" HorizontalAlignment="Left" Margin="26,179,0,0" VerticalAlignment="Top" Height="44" Width="107" FontSize="24" RenderTransformOrigin="0.363,2.018"/>
+        <Label Content="封面" HorizontalAlignment="Left" Margin="478,54,0,0" VerticalAlignment="Top" Height="44" Width="107" FontSize="24"/>
+        <TextBox x:Name="ZhName" HorizontalAlignment="Left" Height="41" Margin="26,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="447" Background="White" FontSize="24"/>
+        <TextBox x:Name="EnName" HorizontalAlignment="Left" Height="41" Margin="26,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="447" Background="White" FontSize="24"/>
+        <Image x:Name="Pic" HorizontalAlignment="Left" Height="186" Margin="478,98,0,0" VerticalAlignment="Top" Width="186"/>
+        <Button x:Name="updatePicBtn" Content="上传图片" HorizontalAlignment="Left" Margin="688,98,0,0" VerticalAlignment="Top" Width="96" Height="34" FontSize="18" Click="updatePicBtn_Click" Background="White"/>
+        <Button x:Name="addGameBtn" Content="新增" HorizontalAlignment="Left" Margin="26,328,0,0" VerticalAlignment="Top" Width="96" Height="34" FontSize="18" Click="addGameBtn_Click" Background="White"/>
+        <Button x:Name="updateGameBtn" Content="修改" HorizontalAlignment="Left" Margin="138,328,0,0" VerticalAlignment="Top" Width="96" Height="34" FontSize="18" Grid.ColumnSpan="2" Click="updateGameBtn_Click" Background="White"/>
+        <Button x:Name="deleteGameBtn" Content="删除" HorizontalAlignment="Left" Margin="255,328,0,0" VerticalAlignment="Top" Width="96" Height="34" FontSize="18" Click="deleteGameBtn_Click" Background="White"/>
+        <Button x:Name="confirmBtn" Content="确定" HorizontalAlignment="Left" Margin="26,376,0,0" VerticalAlignment="Top" Width="96" Height="34" FontSize="18" Click="confirmBtn_Click" IsEnabled="False" Background="White"/>
+        <Button x:Name="cancelBtn" Content="取消" HorizontalAlignment="Left" Margin="138,376,0,0" VerticalAlignment="Top" Width="96" Height="34" FontSize="18" Click="cancelBtn_Click" IsEnabled="False" Background="White"/>
+        <Button x:Name="firstOneBtn" Content="第一条" HorizontalAlignment="Left" Margin="478,328,0,0" VerticalAlignment="Top" Width="96" Height="34" FontSize="18" Click="firstOneBtn_Click" Background="White"/>
+        <Button x:Name="lastOneBtn" Content="最后一条" HorizontalAlignment="Left" Margin="478,376,0,0" VerticalAlignment="Top" Width="96" Height="34" FontSize="18" Click="lastOneBtn_Click" Background="White"/>
+        <Button x:Name="beforeOneBtn" Content="上一条" HorizontalAlignment="Left" Margin="600,328,0,0" VerticalAlignment="Top" Width="96" Height="34" FontSize="18" Click="beforeOneBtn_Click" Background="White"/>
+        <Button x:Name="nextOneBtn" Content="下一条" HorizontalAlignment="Left" Margin="600,376,0,0" VerticalAlignment="Top" Width="96" Height="34" FontSize="18" Click="nextOneBtn_Click" Background="White"/>
+        <TextBox x:Name="searchText" HorizontalAlignment="Left" Height="34" Margin="127,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="657" Background="White" FontSize="20"/>
+        <Button x:Name="searchBtn" Content="搜索" HorizontalAlignment="Left" Margin="26,10,0,0" VerticalAlignment="Top" Width="96" Height="34" FontSize="18" Click="searchBtn_Click" Background="White"/>
+    </Grid>
+</Window>
